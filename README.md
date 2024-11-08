@@ -1,6 +1,6 @@
 # WhiteRabbit
 
-##Anggota
+## Anggota
 - Asep Jamaludin
 - Erza Nugraha
 - Ivander Sugiarta Halim
