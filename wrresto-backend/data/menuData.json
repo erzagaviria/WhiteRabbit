@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "description": "Cheeseburger with lettuce and tomato.",
+    "price": 55000,
+    "category": "Dessert",
+    "image": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+  },
+  {
+    "id": 3,
+    "name": "Pasta",
+    "description": "Creamy Alfredo pasta with chicken.",
+    "price": 65000,
+    "category": "Italian",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.UrKWkmRjk8iEEKjlnPj1MQHaE8&pid=Api&P=0&h=220"
+  },
+  {
+    "id": 4,
+    "name": "Teh Manis",
+    "description": "Teh manis adalah minuman yang menyegarkan.",
+    "price": 8000,
+    "category": "Drink",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.Gy3Ih8wZVnJb6Qj2kwRYdwHaHa&pid=Api&P=0&h=220"
+  },
+  {
+    "id": 5,
+    "name": "Cupcake With Strawberry",
+    "description": "Dessert is a course that concludes a meal.",
+    "price": 12000,
+    "category": "Dessert",
+    "image": "https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 6,
+    "name": "Beef",
+    "description": "Beef is the culinary name for meat from cattle, particularly skeletal muscle.",
+    "price": 40000,
+    "category": "Meat",
+    "image": "https://images.pexels.com/photos/2313686/pexels-photo-2313686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 7,
+    "name": "Lamb",
+    "description": "Lamb, hogget, and mutton are the meat of domestic sheep (species Ovis aries) at different ages.",
+    "price": 38000,
+    "category": "Meat",
+    "image": "https://images.pexels.com/photos/16588046/pexels-photo-16588046/free-photo-of-roasted-lamb-shanks-with-mashed-potatoes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
