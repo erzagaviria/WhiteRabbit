@@ -1,0 +1,155 @@
+@import url("https://fonts.cdnfonts.com/css/leg-hug");
+@import url("https://fonts.cdnfonts.com/css/gl-nummernschild-eng");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  background-color: #fef4e8;
+}
+
+.hero {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  margin-bottom: 2rem;
+}
+
+.hero-text h1 {
+  font-family: "Leg Hug", sans-serif;
+  font-size: 10rem;
+  color: #d92323;
+  margin: 0rem;
+}
+
+.hero-text h1 span {
+  color: #ffc107;
+}
+
+.hero-text p {
+  font-family: "GL-Nummernschild-Eng", sans-serif;
+  font-size: 1.5rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.hero-images {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.hero-images img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, rotate 0.3s ease;
+}
+
+.hero-images img:nth-child(1) {
+  transform: rotate(-15deg);
+}
+
+.hero-images img:nth-child(2) {
+  transform: rotate(0deg);
+}
+
+.hero-images img:nth-child(3) {
+  transform: rotate(15deg);
+}
+
+.hero-images img:hover {
+  transform: scale(1.05) rotate(0deg);
+}
+
+.btn {
+  font-family: "Poppins";
+  background-color: #ffc107;
+  color: #333;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #d92323;
+  color: #fef4e8;
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 6rem; /* Perkecil ukuran font pada tablet */
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+
+  .hero-images img {
+    width: 150px;
+    height: 220px; /* Sesuaikan ukuran gambar */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 4rem; /* Perkecil ukuran font pada layar lebih kecil */
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-images {
+    flex-direction: column; /* Ubah layout gambar menjadi vertikal */
+  }
+
+  .hero-images img {
+    width: 180px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 3rem; /* Ukuran font paling kecil untuk mobile */
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .hero-images img {
+    width: 120px;
+    height: 180px;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+  }
+}

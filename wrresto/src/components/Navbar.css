@@ -1,0 +1,78 @@
+@import url("https://fonts.cdnfonts.com/css/honeypirls");
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fef4e8;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: #d92323;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Honeypirls Regular", sans-serif;
+}
+
+.logo span {
+  color: #ffc107;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  transition: transform 0.3s ease;
+}
+
+.nav-links a {
+  color: #d92323;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  font-family: "Honeypirls Regular", sans-serif;
+}
+
+.nav-links a:hover {
+  color: #ffc107;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none; /* Hidden by default */
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #d92323;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+    background-color: #fef4e8;
+    padding: 1rem;
+    border-radius: 10px;
+    display: none; /* Hidden by default */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
